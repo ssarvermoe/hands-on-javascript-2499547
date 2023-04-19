@@ -41,7 +41,7 @@ const Card = (data) => {
           Uploaded on
           <time class="image__date" datetime="${imgData.created_at}">
           ${
-            date.toLocaleString("default"
+            date.toLocaleString("default",
             {
               year: "numeric",
               month: "long",
